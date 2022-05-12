@@ -1,0 +1,52 @@
+.mainContent {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr;
+  gap: 2rem;
+}
+.aside {
+  display: flex;
+  flex-direction: column;
+  grid-column: 1;
+  grid-row: 1/2;
+  background: hsl(235, 46%, 20%);
+  border-radius: 21px;
+}
+.asideMain {  
+  background: hsl(246, 80%, 60%);  
+  height: 70%;
+  border-radius: 20px;
+  padding: 2rem;
+}
+.asideMain img { 
+  width: 50%;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}  
+.infoPerfil {
+  padding: 2rem 0 .5rem 0;
+  color: hsl(236, 100%, 87%);
+}
+.namePerfil {
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+.navBtns {
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start;
+  margin: 1.125rem ;
+}
+.btns {
+  color: hsl(236, 100%, 87%);
+  padding: .5rem .7rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btns:hover,
+.btns:focus {
+  color: #fff;
+}

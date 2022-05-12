@@ -1,0 +1,32 @@
+.tracking {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+.bgTracking {
+  width: 200px;
+  height: 220px;
+  background: tomato;
+  border-radius: 22px;
+  display: flex;
+  align-items: flex-end;  
+}
+.dataTracking {
+  padding: 2rem;
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  background: hsl(235, 46%, 20%);
+}
+.trackingTitle {
+  font-size: .875rem;
+}
+.timeCTracking {
+  padding: 1.5rem 0 .5rem 0;
+  font-size: 2.5rem;
+}
+.timePTracking {
+  font-size: .875rem;
+}

@@ -1,0 +1,35 @@
+/* 
+#35393C
+#1478C6
+
+#104D7B
+#E4D6A7
+#E9B44C
+#9B2915
+#50A2A7
+#9CE37D
+#496CD5
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Rubik', sans-serif;
+  color: #fff;
+}
+body {
+  display: flex;
+  height: 100vh;
+  place-content: center;
+  place-items: center;
+  background: hsl(226, 43%, 10%);
+}
+.container {
+  max-width: 950px;
+}
+img {
+  max-width: 100%;
+}

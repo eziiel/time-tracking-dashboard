@@ -1,14 +1,15 @@
 /* 
-#35393C
-#1478C6
+#1c1f4a
+#0f1424
+#5847eb
+#bdc1ff
 
-#104D7B
-#E4D6A7
-#E9B44C
-#9B2915
-#50A2A7
-#9CE37D
-#496CD5
+#ff8c66 
+#ff5c7c
+#4acf81
+#7536d3
+#56c2e6 
+#f1c65b
 */
 
 * {
@@ -25,11 +26,21 @@ body {
   height: 100vh;
   place-content: center;
   place-items: center;
-  background: hsl(226, 43%, 10%);
+  background: #0f1424;
 }
 .container {
   max-width: 950px;
 }
+@media(max-width : 680px) {
+  .container {
+    max-width: 500px !important;
+  }
+  body {
+    height: auto;
+  }
+}
 img {
   max-width: 100%;
 }
+
+

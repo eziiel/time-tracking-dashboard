@@ -9,11 +9,11 @@
   flex-direction: column;
   grid-column: 1;
   grid-row: 1/2;
-  background: hsl(235, 46%, 20%);
+  background: #1c1f4a;
   border-radius: 21px;
 }
 .asideMain {  
-  background: hsl(246, 80%, 60%);  
+  background: #5847eb;  
   height: 70%;
   border-radius: 20px;
   padding: 2rem;
@@ -25,7 +25,7 @@
 }  
 .infoPerfil {
   padding: 2rem 0 .5rem 0;
-  color: hsl(236, 100%, 87%);
+  color: #bdc1ff;
 }
 .namePerfil {
   font-size: 2rem;
@@ -38,7 +38,7 @@
   margin: 1.125rem ;
 }
 .btns {
-  color: hsl(236, 100%, 87%);
+  color: #bdc1ff;
   padding: .5rem .7rem;
   background-color: transparent;
   border: none;
@@ -49,4 +49,53 @@
 .btns:hover,
 .btns:focus {
   color: #fff;
+}
+
+@media(max-width : 940px) {
+  .mainContent {
+    display: flex;
+    flex-direction: column;
+  }
+  .asideMain {
+    display: flex;
+  }
+  .asideMain img { 
+    width: 20%;
+  }  
+  .infoPerfilGeral {
+    margin-left: 2rem;
+  }
+}
+
+@media(max-width : 680px) {
+  .mainContent {
+    display: flex;
+    flex-direction: column;
+  }
+  .asideMain {
+    display: flex;
+  }
+  .asideMain img { 
+    width: 20%;
+  }  
+  .infoPerfilGeral {
+    margin-left: 2rem;
+  }
+}
+
+@media(max-width : 480px) {
+  .asideMain {
+    display: flex;
+    flex-direction: column;
+  }
+  .asideMain img { 
+    width: 20%;
+  }  
+  .infoPerfilGeral {
+    margin-left: 0;
+  }
+  .navBtns {
+    flex-direction: row;
+    justify-content: space-around;
+  }
 }

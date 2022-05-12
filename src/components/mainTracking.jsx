@@ -17,12 +17,14 @@ const MainTracking = () => {
       <aside className={style.aside}>
         <div className={style.asideMain}>
           <img src={avatar} alt="foto de perfil" />
-          <p className={style.infoPerfil}>
-            Report for
-          </p>
-          <h1 className={style.namePerfil}>
-            Jeremy Robson
-          </h1>
+          <div className={style.infoPerfilGeral}>
+            <p className={style.infoPerfil}>
+              Report for
+            </p>
+            <h1 className={style.namePerfil}>
+              Jeremy Robson
+            </h1>
+          </div>
         </div>
           <nav
            className={style.navBtns}>

@@ -1,0 +1,24 @@
+.work {
+  background: #ff8c66 url("../images/icon-work.svg") no-repeat;
+  background-position: top right;
+}
+.study {
+  background: #ff5c7c url("../images/icon-study.svg") no-repeat;
+  background-position: top right;
+}
+.exercise {
+  background: #4acf81 url("../images/icon-exercise.svg") no-repeat;
+  background-position: top right;
+}
+.social {
+  background: #7536d3 url("../images/icon-social.svg") no-repeat;
+  background-position: top right;
+}
+.play {
+  background: #56c2e6 url("../images/icon-play.svg") no-repeat;
+  background-position: top right;
+}
+.self {
+  background: #f1c65b url("../images/icon-selfCare.svg") no-repeat;
+  background-position: top right;
+}

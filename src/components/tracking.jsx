@@ -1,18 +1,20 @@
 
 import React from 'react'
 import style from "./tracking.module.css"
-
+import "./tracking.css"
 
 const Tracking = ({dados,trackingInfoTime}) => {
   trackingInfoTime && console.log(trackingInfoTime)
   
+ 
+
   return (
     <section
       className={style.tracking}
     >
       {dados.map(({title,timeframes}) => (
           <div
-          className={style.bgTracking}
+          className={`${style.bgTracking} ${title.toLowerCase()}`}
           key={title}>
             <div className={style.dataTracking}>
               <h2
